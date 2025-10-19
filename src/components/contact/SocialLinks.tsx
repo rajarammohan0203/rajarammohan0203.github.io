@@ -16,7 +16,7 @@ const SocialLinks = () => {
       </a>
 
       <a
-        href="https://github.com/rajaram0203"
+        href="https://github.com/rajarammohan0203"
         target="_blank"
         rel="noopener noreferrer"
         className="p-3 bg-primary/10 rounded-full text-primary hover:bg-primary hover:text-white transition-colors"

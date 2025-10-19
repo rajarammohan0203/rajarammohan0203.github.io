@@ -129,7 +129,7 @@ const Hero = () => {
 
           <div className="stagger-item stagger-delay-7 flex items-center justify-center gap-4 sm:gap-6">
             <a
-              href="https://github.com/rajaram0203"
+              href="https://github.com/rajarammohan0203"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-rifkhan transition-colors p-2"

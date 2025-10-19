@@ -1,4 +1,4 @@
-# Yousaf K Hamza - DevOps Engineer Portfolio
+# Rajaram - AWS Cloud and DevOps Engineer Portfolio
 
 A modern, responsive portfolio website showcasing my expertise in DevOps, Cloud Engineering, and Infrastructure Automation. Built with cutting-edge web technologies and featuring an interactive terminal experience.
 
@@ -58,7 +58,7 @@ npm run preview
 git clone https://github.com/yousafkhamza/yousafkhamza.github.io.git
 
 # Navigate to project directory
-cd yousafkhamza.github.io
+cd rajarammohan0203.github.io
 
 # Install dependencies
 bun install
@@ -171,12 +171,12 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-**Yousaf K Hamza**  
-DevOps Engineer | Cloud Architect
+**Rajram S**  
+AWS DevOps Engineer | Cloud Architect
 
-- **Portfolio** - [yousafkhamza.github.io](https://yousafkhamza.github.io)
-- **LinkedIn** - [linkedin.com/in/yousafkhamza](https://linkedin.com/in/yousafkhamza)
-- **GitHub** - [github.com/yousafkhamza](https://github.com/yousafkhamza)
+- **Portfolio** - [rajrammohan0203.github.io](https://rajarammohan0203.github.io)
+- **LinkedIn** - [linkedin.com/in/rajaram0203](https://linkedin.com/in/rajaram0203)
+- **GitHub** - [github.com/rajarammohan0203](https://github.com/rajarammohan0203)
 - **Email** - Available through portfolio contact form
 
 ---

@@ -67,8 +67,8 @@ const CloudAnimation = ({ className }: CloudAnimationProps) => {
           rotation: Math.random() * Math.PI * 2,
           rotationSpeed: (Math.random() * 0.02) - 0.01,
           image: img,
-          opacity: 0.1 + Math.random() * 0.2,
-          speed: 0.2 + Math.random() * 0.4
+          opacity: 0.20 + Math.random() * 0.5,
+          speed: 0.6 + Math.random() * 0.4
         });
       };
     });
