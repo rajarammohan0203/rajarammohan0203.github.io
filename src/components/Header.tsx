@@ -38,17 +38,19 @@ const Header = () => {
       <div className="container mx-auto px-3 sm:px-4 md:px-6 flex items-center justify-between">
         <a
           href="#home"
-          className="text-xl font-medium text-foreground flex items-center space-x-1 sm:space-x-2 min-w-0 flex-shrink overflow-hidden"
+          className="flex items-center space-x-2 text-foreground hover:opacity-80 transition-opacity"
         >
           <div className="flex-shrink-0">
-            <AnimatedYKHLogo size={50} />
+            <AnimatedYKHLogo size={32} />
           </div>
-          <span className="hidden sm:inline-block font-rockybilly text-2xl sm:text-3xl md:text-4xl lg:text-5xl truncate">
-            yousaf k hamza
-          </span>
-          <span className="sm:hidden font-rockybilly text-lg whitespace-nowrap">
-            YKH
-          </span>
+          <div className="flex items-center">
+            <span className="hidden sm:inline-block font-rockybilly text-lg sm:text-xl md:text-2xl font-medium text-center">
+              Rajaram S
+            </span>
+            <span className="sm:hidden font-rockybilly text-base font-medium">
+              RS
+            </span>
+          </div>
         </a>
 
         {/* Desktop Navigation */}
@@ -58,10 +60,10 @@ const Header = () => {
               <a
                 key={item}
                 href={`#${item.toLowerCase()}`}
-                className="text-sm font-medium text-foreground/80 hover:text-yousaf transition-colors relative group"
+                className="text-sm font-medium text-foreground/80 hover:text-rajaram transition-colors relative group"
               >
                 {item}
-                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-yousaf transition-all duration-300 group-hover:w-full"></span>
+                <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-rajaram transition-all duration-300 group-hover:w-full"></span>
               </a>
             )
           )}

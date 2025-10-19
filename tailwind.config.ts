@@ -74,6 +74,7 @@ export default {
         sm: "calc(var(--radius) - 4px)",
       },
       fontFamily: {
+        "dm-serif": ['"DM Serif Text"', 'serif'],
         sans: ["SF Pro Display", "Inter", "sans-serif"],
         mono: ["SF Mono", "monospace"],
         "great-vibes": ["Great Vibes", "cursive"],

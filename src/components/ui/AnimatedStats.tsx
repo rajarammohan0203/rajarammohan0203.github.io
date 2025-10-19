@@ -7,9 +7,9 @@ interface StatItem {
 }
 
 const stats: StatItem[] = [
-  { number: 6, label: "Years Experience", suffix: "+" },
-  { number: 50, label: "Projects Completed", suffix: "+" },
-  { number: 3, label: "Certifications", suffix: "+" },
+  { number: 3, label: "Years Experience", suffix: "+" },
+  { number: 5, label: "Projects Completed", suffix: "+" },
+  { number: 4, label: "Certifications", suffix: "+" },
   { number: 99, label: "Uptime SLA", suffix: "%" },
 ];
 

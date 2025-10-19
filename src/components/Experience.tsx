@@ -3,72 +3,34 @@ import AnimatedCard from "@/components/ui/AnimatedCard";
 
 const experiences = [
   {
-    id: "alamy",
-    title: "DevOps Engineer",
-    company: "Alamy",
-    logo: "/alamy.png",
-    period: "Nov 2023 - Present",
-    location: "Trivandrum, India",
+    id: "cloudjournee",
+    title: "Senior Cloud Engineer",
+    company: "Cloudjournee",
+    logo: "/cjp.png",
+    period: "Dec 2023 - Dec 2025",
+    location: "Bangalore, India",
     description: [
-      " Architected and implemented cloud-native infrastructure on AWS using Terraform, Docker, EKS, Jenkins, GitHub Actions, and Helm to enable scalable, secure, and fully automated CI/CD pipelines.",
-      " Implemented high-availability and disaster recovery architecture for MSSQL, MySQL, PostgreSQL, and AWS ElastiCache (Redis) across multiple environments, fully provisioned and managed through Terraform with CloudWatch monitoring and IAM-based security.",
-      " Engineered automation solutions using Python (AWS Lambda) and Bash for large-scale systems, pipelines, and on-server operations, enhancing reliability and reducing manual intervention.",
-      " Reduced vulnerabilities by 90% by integrating SAST, DAST, Grype and SonarQube into CI/CD.",
-      " Improved CI speed and flexibility by deploying GitHub Actions self-hosted runners on AWS.",
-      " Enforced consistency across environments using Helm and Kustomize in Kubernetes deployments.",
-      " Built an observability platform using Grafana, Prometheus and Loki for proactive monitoring.",
-      " Collaborated closely with development, QA, and security teams to align infrastructure changes with application requirements, reducing misconfigurations and deployment issues.",
-      " Integrated Azure AD SSO with internal tools, improving access control and user experience.",
-      " Migrated legacy services (e.g., Solr to AWS OpenSearch, on-prem NGINX to AWS EKS) and modern applications (Node.js, TypeScript, React.js) to AWS-native and AWS EKS.",
-      " Automated OpenSearch cluster provisioning, scaling, and monitoring with Terraform and scripts.",
-      " Experienced in cloud security best practices, IAM policies, and threat scanning.",
-      " Secured AWS and Kubernetes access with RBAC and enforced MFA for tighter identity control.",
+      "Managed multi-account AWS infrastructure across 18+ accounts using Terraform, implementing enterprise-grade security with Okta SSO and RBAC controls.",
+      "Architected and deployed production-grade EKS clusters from scratch, streamlining upgrade processes that reduced operational overhead by 30%.",
+      "Automated infrastructure workflows with Atlantis PR automation and custom tooling, enabling faster deployment cycles and improved team collaboration.",
+      "Established comprehensive monitoring and incident management using Datadog and Opsgenie, providing 24/7 on-call support for P1/P2 critical incidents with RCA.",
+      "Optimized containerization strategies by refactoring Dockerfiles and automating operational tasks, significantly improving build efficiency and system reliability.",
+      "Proactively defined and tracked SLAs & SLOs for core services to maintain reliability and resolution.",
     ],
   },
   {
-    id: "quantiphi",
-    title: "Senior Platform Engineer",
-    company: "Quantiphi",
-    logo: "https://images.seeklogo.com/logo-png/43/1/quantiphi-logo-png_seeklogo-434243.png",
-    period: "Aug 2021 - Nov 2023",
-    location: "Trivandrum, India",
+    id: "cloudifyops",
+    title: "Associate DevOps Engineer",
+    company: "CloudifyOps",
+    logo: "/clops.png",
+    period: "Aug 2022 - Dec 2023",
+    location: "Bangalore, India",
     description: [
-      " Architected end-to-end, multi-environment DevOps workflows with scalable, secure, and automated infrastructure on AWS.",
-      " Streamlined CI/CD pipelines using AWS CodePipeline, reducing release cycles by 25%.",
-      " Built and optimised end-to-end database infrastructure, including PostgreSQL, MSSQL, MariaDB, with performance tuning and replication.",
-      " Used CloudFormation for legacy stack provisioning alongside Terraform.",
-      " Created DynamoDB tables and AWS ElastiCache (Redis) clusters infrastructure for caching.",
-      " Developed and deployed blue-green deployment strategies integrated with security checks.",
-      " Managed Kubernetes workloads end-to-end using deployments, services, ingress, config maps, and secrets for secure, scalable delivery.",
-      " Set up and managed centralised logging with the ELK stack (Elasticsearch, Logstash, Kibana) to enhance observability and accelerate incident response.",
-      " Mentored juniors and led KT sessions, improving team performance and onboarding efficiency.",
-    ],
-  },
-  {
-    id: "armia",
-    title: "System Engineer (Cloud Support)",
-    company: "Armia Systems",
-    logo: "/armia.png",
-    period: "May 2020 - Aug 2021",
-    location: "Ernakulam, India",
-    description: [
-      " Delivered AWS-based Linux infrastructure support and automated configuration and patching with Ansible across multi-node EC2 setups.",
-      " Deployed monitoring using Zabbix/Nagios for 100+ shared servers.",
-      " Improved system uptime and reliability by automating incident response and implementing robust monitoring and alerting practices.",
-      " Proactively defined and tracked SLAs & SLOs for core services to maintain reliability and resolution.",
-    ],
-  },
-  {
-    id: "activelobby",
-    title: "System Engineer (TechOps)",
-    company: "Activelobby",
-    logo: "/al.png",
-    period: "Oct 2018 - Mar 2020",
-    location: "Ernakulam, India",
-    description: [
-      " Led a 5-member tech support team, managing AWS and Linux-based environments.",
-      " Automated infrastructure for staging environments and hardened servers with backup policies.",
-      " Created shell scripts to automate user provisioning, backups, and environment health checks, reducing manual workload by 40%.",
+      "Achieved 40% AWS cost reduction through strategic implementation of Reserved Instances, Spot Instances, and proactive cost optimization measures with automated alerting.",
+      "Transformed CI/CD pipeline performance by implementing parallel jobs and caching mechanisms, reducing Jenkins build time from 30 minutes to 6 minutes (80% improvement).",
+      "Designed and implemented automated build and deployment processes using Jenkins, Bitbucket, and Maven, establishing continuous integration/delivery system for enhanced user experience.",
+      "Involved in POCs and R&D on various open-source DevOps tools, evaluating and implementing best practices that improved operational efficiency and team productivity.",
+      "Managed end-to-end infrastructure support including nightly builds, backup management, and production troubleshooting, ensuring high availability and system reliability.",
     ],
   },
 ];
@@ -107,7 +69,7 @@ const Experience = () => {
                     <img
                       src={exp.logo}
                       alt={exp.company}
-                      className="w-10 h-10 rounded-full object-cover flex-shrink-0"
+                      className="w-10 h-10 rounded-full object-contain bg-white p-1 flex-shrink-0"
                     />
                     <div className="min-w-0">
                       <h3
@@ -142,7 +104,7 @@ const Experience = () => {
                   <img
                     src={activeExp.logo}
                     alt={activeExp.company}
-                    className="w-16 h-16 rounded-lg object-cover hidden sm:block"
+                    className="w-16 h-16 rounded-lg object-contain bg-white p-2 hidden sm:block"
                   />
                 </div>
                 <ul className="space-y-3">

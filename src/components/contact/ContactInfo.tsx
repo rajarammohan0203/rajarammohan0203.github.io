@@ -10,10 +10,10 @@ const ContactInfo = () => {
         <div>
           <h4 className="font-medium text-foreground">Email</h4>
           <a
-            href="mailto:yousaf.k.hamza@gmail.com"
+            href="mailto:madeshrajaram0203@gmail.com"
             className="text-primary hover:text-primary-dark transition-colors"
           >
-            yousaf.k.hamza@gmail.com
+            madeshrajaram0203@gmail.com
           </a>
         </div>
       </div>
@@ -25,10 +25,10 @@ const ContactInfo = () => {
         <div>
           <h4 className="font-medium text-foreground">Phone</h4>
           <a
-            href="tel:+917736720639"
+            href="tel:+919159607234"
             className="text-primary hover:text-primary-dark transition-colors"
           >
-            +91 7736720639
+            +91 9159607234
           </a>
         </div>
       </div>
@@ -39,7 +39,7 @@ const ContactInfo = () => {
         </div>
         <div>
           <h4 className="font-medium text-foreground">Location</h4>
-          <p className="text-foreground/70">Thrissur, Kerala, India</p>
+          <p className="text-foreground/70">Bangalore, Karnataka, India</p>
         </div>
       </div>
     </div>

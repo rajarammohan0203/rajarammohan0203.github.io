@@ -13,59 +13,41 @@ interface Certification {
 }
 
 const certifications: Certification[] = [
-  {
-    id: "cka",
-    title: "Certified Kubernetes Administrator",
-    organization: "The Linux Foundation",
-    logo: "/cka.png",
-    date: "2024",
-    description:
-      "Expertise in managing and securing Kubernetes clusters in production environments.",
-  },
+  // {
+  //   id: "cka",
+  //   title: "Certified Kubernetes Administrator",
+  //   organization: "The Linux Foundation",
+  //   logo: "/cka.png",
+  //   date: "2024",
+  //   description:
+  //     "Expertise in managing and securing Kubernetes clusters in production environments.",
+  // },
   {
     id: "aws-saa",
     title: "AWS Certified Solutions Architect Associate",
     organization: "Amazon Web Services",
-    logo: "/aws.png",
+    logo: "/awssoa.png",
     date: "2023",
     description:
-      "In-depth knowledge of AWS architectural best practices, cloud security, and cost optimization.",
+      "In-depth knowledge of AWS architectural best practices, cloud security, Networking and cost optimization.",
   },
-  {
-    id: "gitops",
-    title: "LFS169: GitOps",
-    organization: "The Linux Foundation",
-    logo: "https://www.svgrepo.com/show/341998/linux-foundation.svg",
+   {
+    id: "aws-sysops",
+    title: "AWS Certified SysOps Administrator Associate",
+    organization: "Amazon Web Services",
+    logo: "/awssysops.png",
     date: "2024",
     description:
-      "Expertise in managing and securing Kubernetes clusters in production environments.",
+      "In-depth knowledge of AWS deployment, management, and operational best practices.",
   },
   {
     id: "terraform-associate",
     title: "Terraform Associate Certification",
     organization: "KodeKloud",
     logo: "/kk.png",
-    date: "2022",
-    description:
-      "Proficiency in Infrastructure as Code using Terraform for cloud automation.",
-  },
-  {
-    id: "GenAI Foundations",
-    title: "GenAI Foundations",
-    organization: "upGrad",
-    logo: "/upgrad.png",
-    date: "2025",
-    description:
-      "Strong foundation in Generative AI concepts, Prompt Engineering, and DevOps practices for building intelligent and automated solutions.",
-  },
-  {
-    id: "ethical-hacking",
-    title: "Fundamentals of Ethical Hacking",
-    organization: "Offense Hackers Academy",
-    logo: "/oa.png",
     date: "2023",
     description:
-      "Foundational knowledge of penetration testing, security vulnerabilities, and ethical hacking techniques.",
+      "Proficiency in Infrastructure as Code using Terraform for cloud automation.",
   },
   {
     id: "oracle-cloud",
@@ -77,22 +59,13 @@ const certifications: Certification[] = [
       "Comprehensive understanding of cloud computing fundamentals, service offerings, and core infrastructure components within Oracle Cloud.",
   },
   {
-    id: "wes",
-    title: "Verified International Academic Qualifications",
-    organization: "World Education Services",
-    logo: "/wes.png",
-    date: "2022",
-    description:
-      "Certification and validation of academic credentials from recognized international educational institutions and accreditation bodies.",
-  },
-  {
-    id: "python-hackerrank",
+    id: "python",
     title: "Basic Python Skills Certification",
-    organization: "HackerRank",
-    logo: "https://www.svgrepo.com/show/330599/hackerrank.svg",
-    date: "2021",
+    organization: "KodeKloud",
+    logo: "/kk.png",
+    date: "2023",
     description:
-      "Certification and validation of academic credentials from recognized international educational institutions and accreditation bodies.",
+      "Fundamental knowledge of Python programming for automation and scripting tasks.",
   },
 ];
 
@@ -137,12 +110,12 @@ const Certifications = () => {
                   <h3 className="font-bold text-lg text-foreground">
                     {cert.title}
                   </h3>
-                  <p className="text-yousaf">{cert.organization}</p>
+                  <p className="text-rajaram">{cert.organization}</p>
                   <p className="text-sm text-foreground/60">
                     Issued {cert.date}
                   </p>
                 </div>
-                <div className="text-yousaf">
+                <div className="text-rajaram">
                   <Award
                     className={`transition-transform duration-300 ${
                       activeCert === cert.id ? "rotate-180" : ""

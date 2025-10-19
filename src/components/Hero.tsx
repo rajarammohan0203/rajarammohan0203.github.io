@@ -7,8 +7,7 @@ const typewriterTexts = [
   "DevOps Engineer",
   "DevSecOps Engineer",
   "Cloud Engineer",
-  "Site Reliability Engineer",
-  "Platform Engineer",
+  "Site Reliability Engineer"
 ];
 
 const Hero = () => {
@@ -59,17 +58,17 @@ const Hero = () => {
           <div className="stagger-item stagger-delay-1 mb-4 sm:mb-6 relative inline-block">
             <div className="w-20 h-20 sm:w-24 sm:h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 rounded-full overflow-hidden border-4 border-white/30 shadow-lg mx-auto">
               <img
-                src="https://avatars.githubusercontent.com/yousafkhamza"
-                alt="Yousaf K Hamza"
+                src="https://avatars.githubusercontent.com/rajarammohan0203"
+                alt="Rajaram S"
                 className="w-full h-full object-cover"
               />
             </div>
           </div>
 
-          <h1 className="stagger-item stagger-delay-2 text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-rockybilly text-foreground mb-3 sm:mb-4 px-2 break-words">
-            Yousaf K Hamza
-            <span className="sr-only">yousaf kh, yousaf k hamza, yousaf</span>
-          </h1>
+         <h1 className="stagger-item stagger-delay-2 text-xl sm:text-2xl md:text-4xl lg:text-5xl xl:text-6xl font-dm-serif text-foreground mb-3 sm:mb-4 px-2 break-words tracking-wide">
+            Rajaram S
+            <span className="sr-only">rajaram </span>
+         </h1>
 
           <div className="stagger-item stagger-delay-3 h-6 sm:h-8 md:h-10 mb-4 sm:mb-6">
             <span className="text-sm sm:text-lg md:text-xl lg:text-2xl text-yousaf font-medium inline-flex items-center justify-center">
@@ -84,7 +83,7 @@ const Hero = () => {
             Transforming cloud infrastructure with innovative DevOps solutions.<br />
             Specializing in AWS, Terraform, Kubernetes, and CI/CD automation.<br />
             <span className="text-foreground/60 text-xs sm:text-sm block mt-2">
-              Based in Thrissur, Kerala, India
+              Based in Sankarankovil, Tamil Nadu, India
             </span>
           </p>
           {/* Main CTAs: Download Resume, Try CLI, Contact */}
@@ -130,7 +129,7 @@ const Hero = () => {
 
           <div className="stagger-item stagger-delay-7 flex items-center justify-center gap-4 sm:gap-6">
             <a
-              href="https://github.com/yousafkhamza"
+              href="https://github.com/rajaram0203"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-rifkhan transition-colors p-2"
@@ -145,7 +144,7 @@ const Hero = () => {
               </svg>
             </a>
             <a
-              href="https://www.linkedin.com/in/yousafkhamza/"
+              href="https://www.linkedin.com/in/rajaram0203/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-rifkhan transition-colors p-2"
@@ -160,7 +159,7 @@ const Hero = () => {
               </svg>
             </a>
             <a
-              href="https://medium.com/@yousaf.k.hamza"
+              href="https://medium.com/@madeshrajaram0203"
               target="_blank"
               rel="noopener noreferrer"
               className="text-foreground/70 hover:text-rifkhan transition-colors p-2"

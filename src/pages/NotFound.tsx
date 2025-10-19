@@ -9,7 +9,7 @@ const NotFound = () => {
   const location = useLocation();
 
   useEffect(() => {
-    document.title = "404 - Page Not Found | yousaf Mohamed";
+    document.title = "404 - Page Not Found | Rajaram";
 
     console.error(
       "404 Error: User attempted to access non-existent route:",

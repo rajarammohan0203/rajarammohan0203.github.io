@@ -12,11 +12,11 @@ const Footer = () => {
             <AnimatedYKHLogo size={50} />
             <div className="ml-2">
               <span className="font-rockybilly text-xl md:text-3xl">
-                Yousaf K Hamza
+                Rajaram
               </span>
               <p className="text-sm text-foreground/60 mt-1">
                 DevOps Engineer • DevSecOps Engineer • Cloud Engineer • Site
-                Relibility Engineer • Platform Engineer
+                Reliability Engineer
               </p>
             </div>
           </div>
@@ -24,8 +24,8 @@ const Footer = () => {
           <div className="flex items-center text-foreground/70">
             <p className="text-sm">
               © {currentYear} • Crafted with
-              <Heart className="inline-block w-4 h-4 mx-1 text-yousaf" />
-              in Kerala, India 🇮🇳
+              <Heart className="inline-block w-4 h-4 mx-1 text-rajarm" />
+              in Tamil Nadu, India 🇮🇳
             </p>
           </div>
         </div>

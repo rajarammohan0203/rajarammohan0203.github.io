@@ -14,9 +14,9 @@ type FileSystem = {
 const fileSystem: FileSystem = {
   "profile.txt": `📋 DevOps Engineer Profile
 ----------------------------
-🚀 Name: Yousaf K Hamza
-🌐 Specialization: Cloud with DevSecOps
-🏆 Mission: Be a DevSecOps professional
+🚀 Name: Rajaram Sankarasubramanian
+🌐 Specialization: Cloud with DevOps
+🏆 Mission: Be a AWS / DevSecOps professional
 
 💡 Core Expertise:
   - Cloud Architecture & Optimization
@@ -27,7 +27,7 @@ const fileSystem: FileSystem = {
 
   "skills.md": `🔧 Technical Arsenal:
   [Cloud Platforms]
-  ◉ AWS     ◉ Azure    ◉ GCP
+  ◉ AWS     ◉ Azure     ◉ Oracle Cloud
   
   [DevOps Tools]
   ◉ Terraform   ◉ Kubernetes    ◉ Docker
@@ -38,7 +38,7 @@ const fileSystem: FileSystem = {
   
   [Monitoring & Observability]
   ◉ Prometheus  ◉ Grafana       ◉ ELK Stack
-  ◉ New Relic   ◉ PagerDuty 
+  ◉ Datadog     ◉ PagerDuty 
 
   [Scripting & Automation]
   ◉ Python      ◉ Bash          ◉ PowerShell
@@ -47,39 +47,21 @@ const fileSystem: FileSystem = {
 
   [Security Tools]
   ◉ Snyk        ◉ Trivy         ◉ Checkov
-  ◉ Checkmarx   ◉ SonarQube     ◉ OWASP Tools`,
+  ◉ SonarQube     ◉ OWASP Tools`,
 
-  "projects.json": `🚧 Recent Projects:
-1. 🌐 NGINX Gateway for EKS & Hybrid Traffic Routing
-    • Implemented NGINX gateway in EKS to route traffic between on-prem, AWS, and Kubernetes resources
-    • Enabled monitoring with Prometheus and Grafana for visibility and performance insights
-    • Optimized traffic flow for seamless hybrid cloud integration
-
-2. 🔒 DevSecOps CI/CD Pipeline
-   • Created end-to-end automated security scanning
-   • Integrated vulnerability assessment
-   • Achieved 99.9% compliance automation
-
-3. 🤖 Infrastructure Automation Toolkit
-   • Developed reusable Terraform modules
-   • Created cross-cloud deployment strategies
-   • Standardized infrastructure provisioning`,
 
   "certs.yml": `🏅 Professional Certifications:
   ◉ AWS Solutions Architect - Associate
-  ◉ Certified Kubernetes Administrator (CKA)
   ◉ HashiCorp Terraform Associate
-  ◉ Fundamentals of Ethical Hacking
-  ◉ Oracle Cloud Infrastructure Foundations Certified Associate
-  ◉ LFS169: GitOps`,
+  ◉ Oracle Cloud Infrastructure Foundations Certified Associate`,
 
   "contact.info": `📧 Contact Information:
-Email: yousafkhamza@gmail.com
-Location: Thrissur, Kerala, India 🇮🇳
-LinkedIn: /in/yousafkhamza
-GitHub: /yousafkhamza
-Phone: +91 77366720639
-Portfolio: yousafkhamza.github.io`,
+Email: madeshrajaram0203@gmail.com
+Location: Bangalore, Karnataka, India 🇮🇳
+LinkedIn: /in/rajaram0203
+GitHub: /rajaram0203
+Phone: +91 9159607234
+Portfolio: rajaram0203.github.io`,
 
   "status.log": `🚀 System Status Dashboard
 
@@ -89,7 +71,6 @@ DevOps Infrastructure Monitor
 ☁️  Cloud Services:
 • AWS Services          [████████████] ✅ HEALTHY
 • Azure Resources       [████████████] ✅ HEALTHY
-• GCP Projects          [████████████] ✅ HEALTHY
 
 🔧 DevOps Tools:
 • Kubernetes Cluster    [████████████] ✅ RUNNING
@@ -113,14 +94,14 @@ DevOps Infrastructure Monitor
   "resume.pdf": `📄 Resume Download
 
 🔗 Direct Download:
-→ https://yousafkhamza.github.io/resume.pdf
+→ https://rajarammohan0203.github.io/resume.pdf
 
 📱 QR Code for Mobile Access:
 [Generating QR Code...]`,
 
   "github.stats": `🐙 GitHub Statistics
 
-@yousafkhamza Profile
+@rajarammohan0203 Profile
 ═══════════════════
 
 📊 Repository Stats:
@@ -134,14 +115,13 @@ Python     ███████████████████████
 Shell      ██████████████░░░░░░░░░░░░░░░░░░  35%
 YAML       ████████░░░░░░░░░░░░░░░░░░░░░░░░  25%
 Dockerfile ████░░░░░░░░░░░░░░░░░░░░░░░░░░░░  15%
-JavaScript ██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  10%
 
 🚀 Notable Projects:
 • Kubernetes deployment automation
 • CI/CD pipeline templates
 • Infrastructure monitoring tools
 
-🔗 Visit: https://github.com/yousafkhamza`,
+🔗 Visit: https://github.com/rajarammohan0203`,
 
   ".secret.txt": `🎉 Congratulations! You found the hidden file! 🎉
 
@@ -210,27 +190,27 @@ Thanks for being curious!
 const defaultCommands: Command[] = [
   {
     command: "$ whoami",
-    output: "yousaf",
+    output: "rajaram",
     delay: 800,
   },
   {
     command: "$ pwd",
-    output: "/home/yousaf",
+    output: "/home/rajaram",
     delay: 500,
   },
   {
     command: "$ ls -la",
     output: `total 24
-drwxr-xr-x 3 yousaf yousaf 4096 Aug 24 10:30 .
-drwxr-xr-x 3 yousaf yousaf 4096 Aug 24 10:30 ..
--rw-r--r-- 1 yousaf yousaf  512 Aug 24 10:30 profile.txt
--rw-r--r-- 1 yousaf yousaf  1024 Aug 24 10:30 skills.md
--rw-r--r-- 1 yousaf yousaf  2048 Aug 24 10:30 projects.json
--rw-r--r-- 1 yousaf yousaf  256 Aug 24 10:30 certs.yml
--rw-r--r-- 1 yousaf yousaf  128 Aug 24 10:30 contact.info
--rw-r--r-- 1 yousaf yousaf  350 Aug 24 10:30 resume.pdf
--rw-r--r-- 1 yousaf yousaf  400 Aug 24 10:30 github.stats
-drwxr-xr-x 2 yousaf yousaf 4096 Aug 24 10:30 devops
+drwxr-xr-x 3 rajaram rajaram 4096 Aug 25 10:30 .
+drwxr-xr-x 3 rajaram rajaram 4096 Aug 25 10:30 ..
+-rw-r--r-- 1 rajaram rajaram  512 Aug 25 10:30 profile.txt
+-rw-r--r-- 1 rajaram rajaram  1024 Aug 25 10:30 skills.md
+-rw-r--r-- 1 rajaram rajaram  2048 Aug 25 10:30 projects.json
+-rw-r--r-- 1 rajaram rajaram  256 Aug 25 10:30 certs.yml
+-rw-r--r-- 1 rajaram rajaram  128 Aug 25 10:30 contact.info
+-rw-r--r-- 1 rajaram rajaram  350 Aug 25 10:30 resume.pdf
+-rw-r--r-- 1 rajaram rajaram  400 Aug 25 10:30 github.stats
+drwxr-xr-x 2 rajaram rajaram 4096 Aug 25 10:30 devops
 
 Type 'help' for available commands.`,
     delay: 1000,
@@ -239,7 +219,7 @@ Type 'help' for available commands.`,
 
 const Terminal = ({
   children,
-  title = "devops@yousaf:~$",
+  title = "devops@rajaram:~$",
   commands = defaultCommands,
   height = "500px", // Reduced height for better proportion
   interactive = false,
@@ -256,7 +236,7 @@ const Terminal = ({
   const [isTyping, setIsTyping] = useState(true);
   const [cursorVisible, setCursorVisible] = useState(true);
   const [isProcessingCommand, setIsProcessingCommand] = useState(false);
-  const [currentPath, setCurrentPath] = useState("/home/yousaf");
+  const [currentPath, setCurrentPath] = useState("/home/rajaram");
   const [userInput, setUserInput] = useState("");
   const [commandHistory, setCommandHistory] = useState<string[]>([]);
   const [historyIndex, setHistoryIndex] = useState(-1);
@@ -267,32 +247,32 @@ const Terminal = ({
 
   // Generate QR code in terminal format - integrated from QRTerminal.tsx
   const generateQRCode = (text: string): string => {
-    const qrMatrix = [
-      "█████████████████████████████████████",
-      "█████████████████████████████████████",
-      "████ ▄▄▄▄▄ █ ▄▄ █▄ █▀█▄█▀█ ▄▄▄▄▄ ████",
-      "████ █   █ ██▄█▀▀ █ █ ▀███ █   █ ████",
-      "████ █▄▄▄█ █ ▀▀▄ ▀ █▀▄▀███ █▄▄▄█ ████",
-      "████▄▄▄▄▄▄▄█ ▀▄█▄█▄█ █▄▀ █▄▄▄▄▄▄▄████",
-      "████ ▄ ▀█ ▄▀▄▄█▄ █▀ ▀▀█▀▄▄  ▄██  ████",
-      "████▀██▀▀█▄█ ▄ ▀ ▄▄ █▄▄▄█ ▄██ ▄█▄████",
-      "█████ █▀█▄▄▄ ▄ ████ ▀█▀  █ ▀███▀ ████",
-      "████▀ ▀█▀▀▄ █▀▀▄█▄█▄▀▄▀ ▄█ ▀▄███▄████",
-      "████▄█▀▀▄█▄▄  ▀▄ ██  ██▀▀█ ▀██▀▀ ████",
-      "████▄▄█ ██▄▀▄▄▀▀ ██ ▄█▄▄▀ ▀▀▀▄██▄████",
-      "████▄▄██▄▄▄▄  ███ ▄ ▀▀▄█ ▄▄▄  ▀▄▀████",
-      "████ ▄▄▄▄▄ █▀▄ ▄█▀█ ▀██▀ █▄█ ██▀▄████",
-      "████ █   █ ███▀▄ ▄█▀▄▀█ ▄ ▄▄  ▀▄▀████",
-      "████ █▄▄▄█ █ ▄▄▀ ▄  ▀▄ ▄ ▄▀▀▄▀█▄▄████",
-      "████▄▄▄▄▄▄▄█▄▄▄██▄▄█▄███▄▄▄▄████▄████",
-      "█████████████████████████████████████",
-      "█████████████████████████████████████",
-      "",
-      "📱 QR Code for: " + text,
-      "",
-      "⚡ Scan with mobile device",
-      "📎 Or use direct link above",
-    ];
+  // QR code matrix for https://rajarammohan0203.github.io/resume.pdf
+  // OR code generated using an online tool and converted to terminal format
+  // Command used: below command generate the qr code This will format AND copy to your clipboard: Now just press Cmd+V in VS Code! ✨ in the macOS terminal
+  // qrencode -t UTF8 -s 1 -m 0 -l L -v 2 "https://rajarammohan0203.github.io/resume.pdf" | awk 'BEGIN {print "const qrMatrix = ["} {printf "  \"%s\",\n", $0} END {print "];"}' | pbcopy
+  const qrMatrix = [
+    " ▄▄▄▄▄ █▀ █▀▀▀ █▄▀ █▀█ ▄▄▄▄▄ ",
+    " █   █ █▀ ▄ █▀▄▀▀▀▀▄▀█ █   █ ",
+    " █▄▄▄█ █▀█ █▄▀▀█▄▀ ▀▀█ █▄▄▄█ ",
+    "▄▄▄▄▄▄▄█▄█▄█ █▄█ █▄█▄█▄▄▄▄▄▄▄",
+    "▄ ▄  █▄▄  ▄█▄█  ▄█ █▀▄▀ ▀▄█▄▀",
+    "▄▀   ▄▄█▀ ▀ ▄▄ █▀▄▄▀▀ ▀▄ ▀█▀█",
+    "▀▀▀▄▄▀▄█▄▄▀▄ ▄▀▄▀▄▄ ▀▀▀▀▀▄▄█▀",
+    "▄ ▄▄██▄▀█▄▄█ ▄ ██  █▄▄███▄▄▀█",
+    " ██▀▄█▄█▄ ▄▀▄█ ▄█▄▀▀▀▀▀▀▀▄ █▀",
+    " █▄ ▄ ▄▄ ▄ ▀▄ ▄▄▀▄▀███▄▄ █▄▀█",
+    "▄██▄▄█▄█ ███▄█   ▄█▄ ▄▄▄ ▀   ",
+    " ▄▄▄▄▄ █▄█▄▀▄▄▄▄  ▀  █▄█ ▄▄▀█",
+    " █   █ █ ▄ █ █  ██▄▀ ▄▄▄▄▀ ██",
+    " █▄▄▄█ █ ▄ ▀█ ██▀▄█▄ ▄ ▄▄ ▄ █",
+    "▄▄▄▄▄▄▄█▄▄▄█▄▄▄▄███▄████▄▄▄██",
+    "",
+    "📱 QR Code for: " + text,
+    "",
+    "⚡ Scan with mobile device",
+    "📎 Or use direct link above",
+  ];
 
     return qrMatrix.join("\n");
   };
@@ -320,7 +300,7 @@ const Terminal = ({
     if (typeof current === "string") {
       // Special handling for resume.pdf to generate QR code dynamically
       if (path === "resume.pdf") {
-        const url = "https://yousafkhamza.github.io/resume.pdf";
+        const url = "https://rajarammohan0203.github.io/resume.pdf";
         const qrCode = generateQRCode(url);
         return `📄 Resume Download
 
@@ -332,7 +312,7 @@ const Terminal = ({
 ${qrCode}
 
 💡 Scan with phone camera or use direct link above
-📧 Contact: yousaf.k.hamza@gmail.com
+📧 Contact: madeshrajaram0203@gmail.com
 📄 File Size: ~250KB PDF`;
       }
       return current;
@@ -356,7 +336,7 @@ ${qrCode}
       }
     } else {
       // Use current directory context
-      if (currentPath === "/home/yousaf/devops") {
+      if (currentPath === "/home/rajaram/devops") {
         current = fileSystem["devops/"];
       }
     }
@@ -386,7 +366,7 @@ ${qrCode}
           if (isDir && !item.endsWith("/")) {
             displayName = `${item}/`;
           }
-          return `${permissions} 1 yousaf yousaf ${size
+          return `${permissions} 1 rajaram  rajaram ${size
             .toString()
             .padStart(4)} ${date} ${displayName}`;
         });
@@ -415,7 +395,7 @@ ${qrCode}
     if (path === ".." || path === "../") {
       const pathParts = currentPath.split("/").filter((p) => p);
       if (pathParts.length > 2) {
-        // Don't go above /home/yousaf
+        // Don't go above /home/rajaram
         pathParts.pop();
         const newPath = "/" + pathParts.join("/");
         setCurrentPath(newPath);
@@ -425,18 +405,18 @@ ${qrCode}
     }
 
     if (path === "devops" || path === "devops/") {
-      setCurrentPath("/home/yousaf/devops");
+      setCurrentPath("/home/rajaram/devops");
       return "";
     }
 
-    if (path === "~" || path === "" || path === "/home/yousaf") {
-      setCurrentPath("/home/yousaf");
+    if (path === "~" || path === "" || path === "/home/rajaram") {
+      setCurrentPath("/home/rajaram");
       return "";
     }
 
     // Check if directory exists in file system
     if (fileSystem[path + "/"] && typeof fileSystem[path + "/"] === "object") {
-      setCurrentPath(`/home/yousaf/${path}`);
+      setCurrentPath(`/home/rajaram/${path}`);
       return "";
     }
 
@@ -491,7 +471,7 @@ Tips:
   • File extensions show content type: .txt .md .json .yml .info .pdf .stats .yaml .tf .conf .env`;
 
       case "whoami":
-        return "yousaf";
+        return "rajaram";
 
       case "pwd":
         return currentPath;
@@ -511,14 +491,14 @@ Tips:
           }
         });
 
-        if (currentPath === "/home/yousaf/devops") {
+        if (currentPath === "/home/rajaram/devops") {
           return listDirectory("", flags);
         }
         return listDirectory(pathArgs[0], flags);
 
       case "cat":
         if (!args[0]) return "cat: missing file operand";
-        if (currentPath === "/home/yousaf/devops") {
+        if (currentPath === "/home/rajaram/devops") {
           // When in devops directory, look for files directly in devops/ object
           const devopsFiles = fileSystem["devops/"] as FileSystem;
           if (
@@ -579,7 +559,7 @@ Tips:
         const hours = Math.floor(minutes / 60);
         return `System uptime: ${hours}h ${minutes % 60}m ${seconds % 60}s
 Load average: 0.15, 0.10, 0.05
-Users: 1 (yousaf)
+Users: 1 (rajaram)
 Last login: ${new Date().toLocaleDateString()}`;
 
       case "ps":
@@ -595,9 +575,9 @@ Last login: ${new Date().toLocaleDateString()}`;
 Memory: 8192MB total, 2048MB used, 6144MB free
 
   PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+
-    1 yousaf    20   0  856432  89532  45128 S   3.2  1.1   0:05.23 portfolio
-  234 yousaf    20   0  1245632 156284  89412 S   1.8  1.9   0:02.15 react-app
-  456 yousaf    20   0  2156824 234156 145728 S   0.5  2.9   0:01.45 vite-dev`;
+    1 rajaram    20   0  856432  89532  45128 S   3.2  1.1   0:05.23 portfolio
+  234 rajaram    20   0  1245632 156284  89412 S   1.8  1.9   0:02.15 react-app
+  456 rajaram    20   0  2156824 234156 145728 S   0.5  2.9   0:01.45 vite-dev`;
 
       default:
         return `bash: ${command}: command not found
@@ -615,9 +595,9 @@ Did you mean one of these?
     if (e.key === "Enter") {
       const command = userInput.trim();
       const prompt =
-        currentPath === "/home/yousaf/devops"
-          ? "devops@yousaf:~/devops$"
-          : "devops@yousaf:~$";
+        currentPath === "/home/rajaram/devops"
+          ? "devops@rajaram:~/devops$"
+          : "devops@rajaram:~$";
 
       // Special handling for clear command
       if (command === "clear") {
@@ -657,7 +637,7 @@ Did you mean one of these?
         let files: string[] = [];
         let folders: string[] = [];
 
-        if (currentPath === "/home/yousaf/devops") {
+        if (currentPath === "/home/rajaram/devops") {
           // In devops directory
           const devopsItems = Object.keys(fileSystem["devops/"] as FileSystem);
           files = devopsItems.filter(
@@ -667,7 +647,7 @@ Did you mean one of these?
             (item) => typeof (fileSystem["devops/"] as any)[item] === "object"
           );
         } else {
-          // In root directory (/home/yousaf)
+          // In root directory (/home/rajaram)
           const rootItems = Object.keys(fileSystem);
           files = rootItems.filter(
             (item) => typeof fileSystem[item] === "string"
@@ -715,7 +695,7 @@ Did you mean one of these?
       } else if (words[0] === "cd") {
         // Completing folder names for cd command
         let allItems = [...folders];
-        if (currentPath !== "/home/yousaf") {
+        if (currentPath !== "/home/rajaram") {
           allItems.push(".."); // Add parent directory option
         }
         allItems.push("~"); // Add home directory option
@@ -856,9 +836,9 @@ Did you mean one of these?
 
   const getPrompt = () => {
     if (!interactive) return title;
-    return currentPath === "/home/yousaf/devops"
-      ? "devops@yousaf:~/devops$"
-      : "devops@yousaf:~$";
+    return currentPath === "/home/rajaram/devops"
+      ? "devops@rajaram:~/devops$"
+      : "devops@rajaram:~$";
   };
 
   return (

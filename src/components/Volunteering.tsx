@@ -11,7 +11,7 @@ const Volunteering = () => {
     const fetchArticles = async () => {
       try {
         // Using rss2json API to convert Medium RSS feed to JSON (avoids CORS issues)
-        const mediumRssUrl = "https://medium.com/feed/@yousaf.k.hamza";
+        const mediumRssUrl = "https://medium.com/feed/@madeshrajaram0203";
         const rss2jsonApiUrl = `https://api.rss2json.com/v1/api.json?rss_url=${encodeURIComponent(mediumRssUrl)}`;
         
         const response = await fetch(rss2jsonApiUrl);
@@ -79,12 +79,12 @@ const Volunteering = () => {
                   <div className="flex items-center">
                     <Globe className="w-4 h-4 mr-1.5" />
                     <a
-                      href="https://medium.com/@yousaf.k.hamza"
+                      href="https://medium.com/@madeshrajaram0203"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="hover:text-yousaf transition-colors"
                     >
-                      medium.com/@yousaf.k.hamza
+                      medium.com/@madeshrajaram0203
                     </a>
                   </div>
                 </div>
@@ -100,7 +100,7 @@ const Volunteering = () => {
                       {/* Fallback to hardcoded articles if API fails */}
                       <li>
                         <a
-                          href="https://medium.com/@yousaf.k.hamza/tofuswitch-simplify-opentofu-version-management-7055f7f696c0"
+                          href="https://medium.com/@madeshrajaram0203/tofuswitch-simplify-opentofu-version-management-7055f7f696c0"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="hover:text-yousaf transition-colors"
@@ -110,7 +110,7 @@ const Volunteering = () => {
                       </li>
                       <li>
                         <a
-                          href="https://medium.com/@yousaf.k.hamza/domain-monitor-effortlessly-track-your-websites-uptime-348f3ab85844"
+                          href="https://medium.com/@madeshrajaram0203/domain-monitor-effortlessly-track-your-websites-uptime-348f3ab85844"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="hover:text-yousaf transition-colors"
@@ -120,7 +120,7 @@ const Volunteering = () => {
                       </li>
                       <li>
                         <a
-                          href="https://medium.com/@yousaf.k.hamza/enhancing-security-with-observatory-cli-why-site-score-checks-matter-for-internal-domains-997d57b2c4fc"
+                          href="https://medium.com/@madeshrajaram0203/enhancing-security-with-observatory-cli-why-site-score-checks-matter-for-internal-domains-997d57b2c4fc"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="hover:text-yousaf transition-colors"
@@ -130,7 +130,7 @@ const Volunteering = () => {
                       </li>
                       <li>
                         <a
-                          href="https://medium.com/@yousaf.k.hamza/enhancing-kubernetes-deployment-quality-with-kube-score-b21eb8e85fe9"
+                          href="https://medium.com/@madeshrajaram0203/enhancing-kubernetes-deployment-quality-with-kube-score-b21eb8e85fe9"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="hover:text-yousaf transition-colors"

@@ -1,84 +1,48 @@
-import { useState, useEffect } from "react";
-import AnimatedCard from "@/components/ui/AnimatedCard";
+import { useEffect, useRef } from "react";
+import AnimatedCard from "./AnimatedCard";
+
+interface Skill {
+  name: string;
+  icon: string;
+  category: string;
+  // Remove proficiency from interface
+}
 
 interface SkillCardProps {
-  skill: {
-    name: string;
-    icon: string;
-    proficiency: number;
-    category: string;
-  };
+  skill: Skill;
   index: number;
 }
 
 const SkillCard = ({ skill, index }: SkillCardProps) => {
-  const [animatedProgress, setAnimatedProgress] = useState(0);
-  const [isVisible, setIsVisible] = useState(false);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        if (entry.isIntersecting && !isVisible) {
-          setIsVisible(true);
-          // Animate progress bar
-          let progress = 0;
-          const increment = skill.proficiency / 50; // 50 frames for smooth animation
-          const timer = setInterval(() => {
-            progress += increment;
-            if (progress >= skill.proficiency) {
-              progress = skill.proficiency;
-              clearInterval(timer);
-            }
-            setAnimatedProgress(Math.floor(progress));
-          }, 20);
-        }
-      },
-      { threshold: 0.1 }
-    );
-
-    const element = document.getElementById(`skill-${index}`);
-    if (element) {
-      observer.observe(element);
-    }
-
-    return () => {
-      if (element) {
-        observer.unobserve(element);
-      }
-    };
-  }, [skill.proficiency, index, isVisible]);
-
   return (
-    <AnimatedCard
-      id={`skill-${index}`}
-      className="glass-card rounded-xl p-6 hover:shadow-lg transition-all hover:scale-105 group"
+    <AnimatedCard 
+      className="glass-card rounded-xl p-6 text-center hover:scale-105 transition-transform duration-300"
+      delay={index * 100}
     >
-      <div className="flex items-center space-x-4 mb-4">
-        <div className="w-12 h-12 flex items-center justify-center bg-white rounded-lg shadow-sm group-hover:shadow-md transition-shadow">
+      <div className="flex flex-col items-center space-y-4">
+        <div className="w-12 h-12 flex items-center justify-center">
           <img
             src={skill.icon}
             alt={skill.name}
-            className="w-8 h-8 object-contain group-hover:scale-110 transition-transform"
-            loading="lazy"
+            className="w-10 h-10 object-contain"
+            onError={(e) => {
+              // Fallback if image fails to load
+              e.currentTarget.style.display = 'none';
+            }}
           />
         </div>
-        <div>
-          <h3 className="font-bold text-foreground group-hover:text-yousaf transition-colors">
-            {skill.name}
-          </h3>
-          <p className="text-xs text-foreground/60">{skill.category}</p>
+        
+        <div className="space-y-2">
+          <h3 className="font-semibold text-foreground">{skill.name}</h3>
+          <p className="text-sm text-foreground/60">{skill.category}</p>
         </div>
+        
+        {/* Remove all proficiency-related elements:
+        - Progress bar
+        - Percentage display
+        - Animation logic
+        */}
       </div>
-
-      <div className="w-full bg-muted rounded-full h-2 mb-1 overflow-hidden">
-        <div
-          className="bg-gradient-to-r from-yousaf to-yousaf-dark h-2 rounded-full transition-all duration-1000 ease-out"
-          style={{ width: `${animatedProgress}%` }}
-        ></div>
-      </div>
-      <p className="text-right text-sm text-foreground/70 font-medium">
-        {animatedProgress}%
-      </p>
     </AnimatedCard>
   );
 };

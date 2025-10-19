@@ -16,8 +16,8 @@ const Education = () => {
               <div className="flex-shrink-0 flex items-center justify-center">
                 <div className="w-24 h-24 md:w-32 md:h-32 rounded-xl overflow-hidden bg-accent flex items-center justify-center">
                   <img
-                    src="/bu.png"
-                    alt="Bharathiar University"
+                    src="/sastra.png"
+                    alt="Sastra University"
                     className="w-20 h-20 md:w-28 md:h-28 object-contain"
                   />
                 </div>
@@ -25,19 +25,19 @@ const Education = () => {
 
               <div className="flex-1">
                 <h3 className="text-2xl font-bold mb-2 text-foreground">
-                  MSc Computer Science
+                  MCA Computer Application
                 </h3>
                 <div className="flex items-center text-yousaf mb-2">
                   <GraduationCap className="w-5 h-5 mr-2" />
                   <span className="font-medium">
-                    Bharathiar University, India
+                    Sastra University, India
                   </span>
                 </div>
 
                 <div className="flex flex-wrap gap-4 mb-4 text-sm text-foreground/70">
                   <div className="flex items-center">
                     <Calendar className="w-4 h-4 mr-1.5" />
-                    <span>2021 - 2023</span>
+                    <span>2020 - 2022</span>
                   </div>
                   <div className="flex items-center">
                     <MapPin className="w-4 h-4 mr-1.5" />
@@ -53,8 +53,8 @@ const Education = () => {
               <div className="flex-shrink-0 flex items-center justify-center">
                 <div className="w-24 h-24 md:w-32 md:h-32 rounded-xl overflow-hidden bg-accent flex items-center justify-center">
                   <img
-                    src="/neftu.png"
-                    alt="North East Frontier Technical University"
+                    src="/klu.png"
+                    alt="Kalasalingam University"
                     className="w-20 h-20 md:w-28 md:h-28 object-contain"
                   />
                 </div>
@@ -62,19 +62,19 @@ const Education = () => {
 
               <div className="flex-1">
                 <h3 className="text-2xl font-bold mb-2 text-foreground">
-                  BTech Computer Science
+                  BSc Computer Science
                 </h3>
                 <div className="flex items-center text-yousaf mb-2">
                   <GraduationCap className="w-5 h-5 mr-2" />
                   <span className="font-medium">
-                    North East Frontier Technical University, India
+                    Kalasalingam University, India
                   </span>
                 </div>
 
                 <div className="flex flex-wrap gap-4 mb-4 text-sm text-foreground/70">
                   <div className="flex items-center">
                     <Calendar className="w-4 h-4 mr-1.5" />
-                    <span>2014 - 2018</span>
+                    <span>2018 - 2020</span>
                   </div>
                   <div className="flex items-center">
                     <MapPin className="w-4 h-4 mr-1.5" />

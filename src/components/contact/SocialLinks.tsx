@@ -4,7 +4,7 @@ const SocialLinks = () => {
   return (
     <div className="flex items-center justify-around">
       <a
-        href="https://www.linkedin.com/in/yousafkhamza/"
+        href="https://www.linkedin.com/in/rajaram0203/"
         target="_blank"
         rel="noopener noreferrer"
         className="p-3 bg-primary/10 rounded-full text-primary hover:bg-primary hover:text-white transition-colors"
@@ -16,7 +16,7 @@ const SocialLinks = () => {
       </a>
 
       <a
-        href="https://github.com/yousafkhamza"
+        href="https://github.com/rajaram0203"
         target="_blank"
         rel="noopener noreferrer"
         className="p-3 bg-primary/10 rounded-full text-primary hover:bg-primary hover:text-white transition-colors"
@@ -28,7 +28,7 @@ const SocialLinks = () => {
       </a>
 
       <a
-        href="mailto:yousaf.k.hamza@gmail.com"
+        href="mailto:madeshrajaram0203@gmail.com"
         target="_blank"
         rel="noopener noreferrer"
         className="p-3 bg-primary/10 rounded-full text-primary hover:bg-primary hover:text-white transition-colors"
