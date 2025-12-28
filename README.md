@@ -33,10 +33,10 @@ A modern, responsive portfolio website showcasing my expertise in DevOps, Cloud 
 
 ```bash
 # Clone the repository
-git clone https://github.com/yousafkhamza/yousafkhamza.github.io.git
+git clone https://github.com/rajarammohan0203/rajarammohan0203.github.io
 
 # Navigate to project directory
-cd yousafkhamza.github.io
+cd rajarammohan0203.github.io
 
 # Install dependencies
 npm install
@@ -55,7 +55,7 @@ npm run preview
 
 ```bash
 # Clone the repository
-git clone https://github.com/yousafkhamza/yousafkhamza.github.io.git
+git clone https://github.com/rajarammohan0203/rajarammohan0203.github.io
 
 # Navigate to project directory
 cd rajarammohan0203.github.io
